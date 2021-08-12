@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/topBar2"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_below="@id/topBar"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/divi_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_black_and_white"
+            android:text="Vert"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/multi_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_gray"
+            android:text="Partir"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/resta_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_enhamce_image"
+            android:text="3/4"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/suma_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/background_dark"
+            android:drawableTop="@drawable/ic_image"
+            android:text="Cortar"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/inv_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_gray"
+            android:text="aclara"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/power_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_enhamce_image"
+            android:text="color"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/exp_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_image"
+            android:text="color2"
+            android:textColor="@android:color/background_light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_gravity="center_vertical">
+
+        <Button
+            android:id="@+id/log_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_enhamce_image"
+            android:text="X0.5"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/equalization_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_black_and_white"
+            android:text="X2"
+            android:textColor="#FFFFFF" />
+
+
+        <Button
+            android:id="@+id/constr_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_image"
+            android:text="Voltea"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/original"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_image"
+            android:text="Origin"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/magicColor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_enhamce_image"
+            android:singleLine="true"
+            android:text="brillo"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/grayMode"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_gray"
+            android:singleLine="true"
+            android:text="Grises"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/BWMode"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_black_and_white"
+            android:singleLine="true"
+            android:text="Binario"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/fr1"
+        android:layout_width="395dp"
+        android:layout_height="217dp"
+        android:layout_below="@id/topBar2"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/scanPadding"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="@dimen/scanPadding"
+        android:layout_marginBottom="18dp">
+
+        <ImageView
+            android:id="@+id/scannedImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/scanPadding" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fr2"
+        android:layout_width="match_parent"
+        android:layout_height="257dp"
+        android:layout_above="@id/doneButton"
+        android:layout_below="@id/fr1"
+        android:layout_gravity="center"
+        android:layout_marginTop="-8dp"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/doneButton"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-1dp"
+        android:background="@color/bottom_background_color"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:padding="@dimen/bottom_bar_padding"
+        android:text="LISTO" />
+
+    <Button
+        android:id="@+id/cargarbtn"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="225dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/bottom_background_color"
+        android:orientation="horizontal"
+        android:padding="@dimen/bottom_bar_padding"
+        android:text="CARGAR" />
+
+
+</RelativeLayout>
